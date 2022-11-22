@@ -1,0 +1,7 @@
+den4ik.content:
+  path: '/den4ik/cats'
+  defaults:
+    _controller: '\Drupal\den4ik\Controller\cats::content'
+    _title: 'Cats'
+  requirements:
+    _permission: 'access content'
